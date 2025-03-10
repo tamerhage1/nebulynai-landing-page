@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NebulynAI | Next-Gen AI Consulting for Healthcare</title>
+  <!-- Google Fonts (Open Sans) -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    body {
+      background-color: #f5f7fb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #3f51b5;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 1.5rem auto;
+      padding: 0 1rem;
+    }
+
+    .hero {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero h2 {
+      color: #3f51b5;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero button {
+      background: #3f51b5;
+      color: #fff;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .hero button:hover {
+      background: #303f9f;
+    }
+
+    .section {
+      background-color: #fff;
+      margin-bottom: 1.5rem;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .section h2 {
+      color: #3f51b5;
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }
+
+    .section ul {
+      list-style-type: square;
+      margin-left: 1.5rem;
+    }
+
+    .section li {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 2rem;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+    }
+
+    .contact {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .contact a {
+      color: #3f51b5;
+      text-decoration: none;
+    }
+
+    @media (min-width: 768px) {
+      .section {
+        padding: 2rem;
+      }
+      .hero {
+        padding: 3rem;
+      }
+      header h1 {
+        font-size: 2.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NebulynAI</h1>
+    <p>Next-Gen AI Consulting for Healthcare</p>
+  </header>
+
+  <div class="container">
+    <!-- Hero Section -->
+    <div class="hero">
+      <h2>Empowering Healthcare with AI</h2>
+      <p>Bridging the gap between cutting-edge AI models and real-world clinical needs, we provide reliable, ethical, and efficient solutions for medical professionals and institutions.</p>
+      <button onclick="window.location.href='#contact'">Get Started</button>
+    </div>
+
+    <!-- Problem Section -->
+    <div class="section">
+      <h2>The Problem</h2>
+      <p>No universal framework exists to rigorously validate LLMs for healthcare. Doctors and hospitals often struggle to identify safe, effective models and to integrate them seamlessly into clinical workflows.</p>
+    </div>
+
+    <!-- Solution Section -->
+    <div class="section">
+      <h2>Our Solution</h2>
+      <ul>
+        <li><strong>Research-Oriented:</strong> Standardized methodologies to evaluate reliability, safety, and performance of AI in medicine.</li>
+        <li><strong>Clinical Integration:</strong> Hands-on guidance for implementing AI workflows, from data collection to deployment.</li>
+        <li><strong>Educational Programs:</strong> Courses to bridge knowledge gaps, ensuring clinicians and administrators can effectively harness AI’s potential.</li>
+      </ul>
+    </div>
+
+    <!-- Unique Selling Points Section -->
+    <div class="section">
+      <h2>Why NebulynAI?</h2>
+      <ul>
+        <li><strong>Medical & Tech Expertise:</strong> Our multidisciplinary team includes data scientists, physicians, and healthcare leaders.</li>
+        <li><strong>Real-World Testing:</strong> Evaluate AI directly in clinical environments, ensuring reliability and safety.</li>
+        <li><strong>Compliance & Ethics:</strong> Align your AI solutions with regulatory standards and ethical guidelines.</li>
+      </ul>
+    </div>
+
+    <!-- Services Section -->
+    <div class="section">
+      <h2>Our Services</h2>
+      <ul>
+        <li><strong>AI Validation & Consulting:</strong> Tailored frameworks and best practices for LLM deployment.</li>
+        <li><strong>Research & Data Partnerships:</strong> Collaborations to create industry-wide benchmarks, fueling AI innovation.</li>
+        <li><strong>Training & Education:</strong> Comprehensive programs for healthcare professionals to adopt AI effectively.</li>
+      </ul>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="section contact" id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:nebulynai1@gmail.com">nebulynai1@gmail.com</a></p>
+      <p>Phone: <a href="tel:5715810562">571-581-0562</a></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 NebulynAI | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
